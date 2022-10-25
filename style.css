@@ -1,0 +1,460 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid red; */
+}
+.first{
+    background-image: url("photos/first.png");
+    height: 120vh;
+    width: 100%;
+}
+.first img{
+    margin-top: 2vh;
+    width: 30%;
+}
+.navigation{
+    display: inline-block;
+    width: 69.3%;
+    background-color: white;
+    /* margin-left: 0px; */
+    text-align: right;
+    
+}
+.navigation .navName li{
+    display: inline-block;
+    /* margin-right: 3.5vw; */
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    text-align: center;
+    /* margin-top: 10vw; */
+    padding-top: 3vh;
+    padding-bottom: 4vh;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.navigation .navName li:hover{
+    background-color: gold;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#navitop{
+    display: inline-block;
+    vertical-align: top;
+
+}
+.navName{
+    background-color: white;
+    display: inline-block;
+
+    
+}
+
+.navigation #navitop li{
+    display: inline-block;
+    vertical-align: top;
+
+    color: gold;
+    
+    margin-left: 2vw;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+.navigation #navitop li:hover{
+    color: black;
+
+
+}
+.navigation #navitop li img{
+    height: 25px;
+    width: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#brochure{
+    border: 3px solid gold;
+    border-radius: 40px;
+    margin: 3px;
+}
+
+.firstContent{
+    height: 40vh;
+    width: 40vw;
+    margin-top: -19vw;
+    margin-left: 8vw;
+
+}
+.firstContent h2{
+    font-size: 60px;
+    color: goldenrod;
+}
+.firstContent h1{
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.firstContent p{
+    font-size: 25px;
+    color: white;
+}
+#firstImage{
+    display: inline-block;
+    /* display: inline; */
+    width: 25vw;
+    height: auto;
+
+}
+.machine1{
+    text-align: right;
+}    /* CSS for First sheet ENDS.*/
+
+/* CSS for Second Sheet Starts================ */
+
+
+.second{
+    background-image: url("photos/second.jpg");
+    height: 800px;
+    width: 100%;
+}
+.second h2{
+    font-size: 40px;
+    color:white;
+    width: 45%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-family:'Pristina';
+    font-weight: 100;
+}
+.second p{
+    padding-top: 1vw;
+    font-size: 20px;
+    color: white;
+    border-left: 1px solid white;
+    padding-left: 2vw;
+    display: inline-block;
+    width: 50%;
+    margin-left: 2vw;
+    height: auto;
+}
+
+.second  img{
+border: 10px solid white;
+width: 40%;
+margin-top: 2vw;
+margin-left: 10vw;
+}
+.second .whyUs{
+background-color: white;
+display: inline-block;
+padding-bottom: 2vw;
+position: absolute;
+margin-top: 7vw;
+margin-left: -5vw;
+border-radius: 20px;
+/* font-size: 20px; */
+}
+.second .whyUs h1{
+text-align: center;
+}
+.second .whyUs li{
+font-size: 20px;
+list-style-image: url("photos/logo.png");
+list-style-position: inside;
+margin:1vw 5vw
+}
+
+
+.third{
+background-image: url("photos/third.jpg");
+}
+.third img{
+width: 49%;
+/* height: 70%; */
+}
+.contactUs{
+background-image: url("photos/first.png");
+display: inline-block;
+width: 50%;
+vertical-align: top;
+/* height: 470px; */
+text-align: center;
+color: black
+}
+.contactUs input{
+width: 70%;
+margin-top: 1.5vw;
+color: white;
+font-weight: bolder;
+font-size: 20px;
+height: 2.5vw;
+}
+::placeholder{
+color: black;
+opacity: 1;
+font-weight: bolder;
+}
+
+
+
+
+input[type="text"]
+{
+background: transparent;
+border: none;
+border-bottom: 1px solid black;
+}
+input[type="number"]
+{
+background: transparent;
+border: none;
+border-bottom: 1px solid black;
+}
+
+#submit{
+text-align: center;
+background-color: gold;
+text-transform: uppercase;
+width: 20vw;
+height: 4vw;
+margin-left: 30%;
+margin-bottom: 5vw;
+border-radius: 20px;
+color: white;
+display: block;
+/* text-align: center; */
+
+}
+#submit:hover{
+color: gold;
+background-color: white;
+border: 5px solid gold;
+transition: 1s;
+
+}
+.bottom{
+background-image: url("photos/third.jpg");
+margin-top: 0vw;
+
+}
+.bottom div{
+/* border: 5px solid red; */
+display: inline-block;
+width: 30%;
+vertical-align: middle;
+/* right: 10vw; */
+
+}
+.bottom div li a{
+/* font: 15px; */
+font-size: 20px;
+color: white;
+text-decoration: none;
+/* margin-bottom: 1000px; */
+
+
+}
+.bottom div li a:hover{
+color: gold;
+}
+
+.bottom div li{
+margin-bottom: 3vw;
+}
+.bottom div h3{
+color: white;
+font-size: 25px;
+margin-bottom: 2vw;
+}
+@media screen and (max-width:700px) {
+.bottom div{
+width: 80%;
+height: auto;
+text-align: center;
+margin-bottom: 100px;
+}
+
+}
+
+
+
+
+
+
+
+/* Normal CSS======================Normal CSS============ */
+
+
+
+
+@media screen and (max-width:900px) {
+    .navigation{
+    /* background-color: white; */
+    /* display: inline-block; */
+    width: 100%;
+    /* background-color: white; */
+    /* margin-left: 0px; */
+    text-align: left;           
+}
+.first{
+    height: 170vh;
+    width: auto;
+}
+.first img{
+    /* margin-top: 2vh; */
+    width: 100%;
+    height: auto;
+}
+/* CSS for First Sheet Ends====================== */
+
+
+
+
+
+
+
+           
+}     /*========================900 maxwidth media qurey.*/
+
+
+
+@media screen and (max-width:700px) {
+.third img{
+width: 100%;
+/* height: 70%; */
+}
+.contactUs{
+width: 100%;
+}
+
+.contactUs input{
+font-size: 15px;
+/* margin-bottom: 10vw; */
+}
+
+#submit{
+margin-left: 30%;
+
+width: 30vw;
+height: 10vw;
+font-size: 15px;
+
+
+}
+.contactUs input{
+font-size: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+.second h2{
+    font-size: 30px;
+    width: 100%;
+    /* color: red; */
+}
+.second p{
+    width: 90%;
+    font-size: 15px;
+    margin-top: 10vw;
+}
+.second  img{
+    width: 95%;
+    margin: 2vw;
+}
+.second .whyUs{
+    position: relative;
+    width: 95%;
+    margin: 2vw;
+}
+.second{
+    height: 1000px;
+}
+
+}
+/* Media Query 500px ends`========================= */
+
+
+
+@media screen and (max-width:450px){
+    .navigation #navitop li{
+        width: 100%;
+        height: auto;
+        /* margin: 0px; */
+        margin-bottom: 5vw;
+        padding: 0px;
+        /* color: white; */
+    }
+    .first{
+    height: 250vh;
+    width: auto;
+}
+    
+    
+    .navigation .navName li{
+        width: 100%;
+        height: auto;
+        background-color: lightblue;
+        margin-bottom: 5vw;
+        border: 3px solid gold;
+        border-radius: 20px;
+    }
+    .firstContent{
+    width: 100%;
+    height: auto;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    text-align: center;
+
+}
+.firstContent h2{
+    font-size: 30px;
+    color: goldenrod;
+    margin: 0px;
+    padding: 0px;
+
+}
+.firstContent h1{
+    font-size: 45px;
+    margin: 0px;
+    padding: 0px;
+}
+.firstContent p{
+    font-size: 15px;
+    color: white;
+}
+#firstImage{
+    display: inline-block;
+    /* display: inline; */
+    width: 100%;
+    height: auto;
+
+}
+.machine1{
+    text-align: center;
+
+}
+.first{
+    height: 250vh;
+    width: 100%;
+
+} 
+    
+} /*Css for maxwidth 450px ends==============================*/
